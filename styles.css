@@ -1,0 +1,39 @@
+html {
+    background: black;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 40px;
+}
+
+
+.post-header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+i {font-size: 25px;}
+
+.post {
+    background: white;
+    width: 400px;
+}
+
+.post-body {
+    padding: 10px;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.fa-bookmark {
+    margin-left: auto;
+}
